@@ -5,7 +5,7 @@ A cross-platform app, built using Flutter, that succinctly consolidates fundamen
 ## State
 
 The project is still in development.
-Most of the work is done, some code cleaning and refactoring is needed.
+Most of the work is done,for some code cleaning and refactoring is needed.
 
 The app is made using flutter and GETX for easier widget state management.
 
