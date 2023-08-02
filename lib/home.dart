@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:knowtilus/buoys/buoys.dart';
 import 'package:knowtilus/topics/alphabet/alphabet.dart';
+import 'package:knowtilus/topics/buoys/buoys.dart';
 import 'package:knowtilus/topics/sounds/sounds.dart';
 import 'package:knowtilus/topics/vessels/vessels.dart';
-import 'package:knowtilus/vhf/vhf.dart';
-import 'package:knowtilus/wind/wind.dart';
+import 'package:knowtilus/topics/vhf/vhf.dart';
+import 'package:knowtilus/topics/wind/wind.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
