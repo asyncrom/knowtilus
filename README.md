@@ -1,16 +1,28 @@
 # knowtilus
 
-A new Flutter project.
+A cross-platform app, built using Flutter, that succinctly consolidates fundamental knowledge for coastal navigation.
 
-## Getting Started
+## State
 
-This project is a starting point for a Flutter application.
+The project is still in development.
+Most of the work is done, some code cleaning and refactoring is needed.
 
-A few resources to get you started if this is your first Flutter project:
+The app is made using flutter and GETX for easier widget state management.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+When the project reach beta, the app will be published for free in the Playstore, in F-Droid, and as a static web-app.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+When the app is fully ready, the goal is also to publish it in the App Store and Playstore at a low price.
+
+Translations English and French for the moment, in lib/translations/ktranslation.dart
+
+## Warning
+This code is NOT under a permissive / copyleft licence.
+
+You CAN read the code and take inspiration from it as it is public :)
+
+You CAN NOT copy, share, modify, reuse the code and assets available in this repository as it is my intellectual property.
+
+Thanks <3
+
+Asyncrom
+
