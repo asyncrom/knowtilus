@@ -65,6 +65,7 @@ flutter:
     - assets/images/flags/
     - assets/images/arrows/
     - assets/images/buoys/
+    - assets/images/boat/
 
   # the material Icons class.
   uses-material-design: true

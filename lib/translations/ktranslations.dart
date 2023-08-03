@@ -27,6 +27,15 @@ Asyncrom
     // Utils
     'see_more': "See more...",
     'see_less': "See less...",
+    'wip': "Work in progress...",
+    'for_later': "Page Under Construction.\nThis page is currently under construction and will be available in a future update.\nThank you for your understanding.",
+    //
+    // Infos
+    'report_contact':"Please report any error, or send any suggestion at knowtilus@pm.me",
+    'source_code': "The source code of this app is available on my GitHub profile : github.com/asyncrom",
+    'chat_contact': "You can add me on discord : asyncrom",
+    'warning_dev': "This app is still in early development",
+    'todo': "Work in progress:\n- Security topic\n- Knots topic\n- Flashcards",
     //
     // Home
     'sound_signals': "Sound signals",
@@ -254,6 +263,30 @@ Over.
     'pref_starboard_info':"Red-Green-Red\nR Fl(2) + Fl [Two flashes then one flash, red]",
     'pref_starboard_sense':"This buoy is more port mark than starboard mark.\nThe starboard channel is the main channel.",
 
+    //
+    // Right of way
+    'ordof': "Order of Priority",
+    'ordmotor': "Priority for motorboats",
+    'ordsail': "Priority for sailboats",
+    'high_is_pr': "The highest is Stand-On vessel :",
+    'same_motor':"When two motorboats with the same privilege are on a collision course :",
+    'same_sail':"When two sailboats with the same privilege are on a collision course :",
+    'give_way': "If you are the Give-Way vessel, you must act as if the 'stand-on' vessel has the responsibility to keep going the way it is going. It is your responsibility to signal your intentions to the stand-on vessel, and it is your responsibility to maneuver your boat around the other in a safe manner. Also known as a 'Burdened' vessel, as it has the burden of.",
+    'stand_on': "If you are the Stand-On vessel, it is your responsibility to acknowledge the intended actions of the give-way vessel. You must also maintain your current course and speed until the give-way vessel passes, or you enter a dangerous situation.",
+    'pr_1': "Overtaken vessel (top priority)",
+    'pr_2': "Vessels not under command",
+    'pr_3': "Vessels restricted in their ability to maneuver",
+    'pr_4': "Vessels constrained by draft",
+    'pr_5': "Fishing vessels engaged in fishing, with gear deployed",
+    'pr_6': "Sailing vessels",
+    'pr_7': "Power driven vessels",
+    'sitm_1': "If you see the other vessel on starboard (right) your 'give-way'\nIf you see the other vessel on port (left) your 'stand-on'",
+    'sitm_2': "If you are overtaking a vessel (sternlight area), he is 'stand-on', you are 'give-way'",
+    'sitm_3': "If you are face-to-face you should indicate clearly that you are turning starboard",
+
+    'sits_1': "If your are on a different tack:\n- The sailboat starboard tack (wind coming from starboard) is 'stand-on'\n- The sailboat port tack (wind coming from port) is 'give-way'",
+    'sits_2': "If you are on the same tack, the down-wind sailboat is 'stand-on'\nThe sailboat that receive the wind first is 'give-way'",
+    'sits_3': "If you are overtaking a vessel (sternlight area), he is 'stand-on', you are 'give-way'",
   },
   'fr_FR': {
     'hello': "Bonjour le monde",
@@ -279,6 +312,14 @@ Asyncrom
     'see_less': "Voir moins...",
 
     //
+    // Infos
+    'warning_dev': "Cette application est toujours en phase de developement",
+    'report_contact':"Merci de signaler les erreurs et d'envoyer toute suggestion à knowtilus@pm.me",
+    'source_code': "Le code source est publique sur mon compte github : github.com/asyncrom",
+    'chat_contact': "Vous pouvez m'ajouter sur discord : asyncrom",
+    'todo': "Travail en cours:\n- Sujet sécurité\n- Sujet nœuds\n- Flashcards",
+
+    //
     // Home
     'sound_signals': "Signaux de brume",
     'vessels': "Navires",
@@ -290,6 +331,7 @@ Asyncrom
     'rightsofway': "Droits de route",
     'report': "Signaler une erreur",
     'infos': "Informations",
+
 
     //
     // Sounds
@@ -485,7 +527,7 @@ Nature du problème: [exemple: Mât cassé, remorquage nécessaire]\n
 
     'other_wreck':"Bouée d'épave récente",
     'other_wreck_info':"Bleue et jaune avec un marqueur '+'.\nUn flash jaune et un flash bleu de une seconde.",
-    'other_wreck_sense':"Emergency wreck marking buoys are used to identify new dangers or wrecks. ",
+    'other_wreck_sense':"Utilisées pour identifier les nouveaux dangers ou les nouvelles épaves (non répertoriés sur les cartes). ",
 
     'side_port':"Marque latérale bâbord",
     'side_port_info':"Cyclindre rouge\nFlash rouge, voir le patterne individuel sur une carte marine",
@@ -502,6 +544,31 @@ Nature du problème: [exemple: Mât cassé, remorquage nécessaire]\n
     'pref_starboard':"Chenal préféré à tribord",
     'pref_starboard_info':"Rouge-Vert-Rouge\nR Fl(2) + Fl [Tdeux flashes puis un flash, rouge]",
     'pref_starboard_sense':"Cette boué est plus marque bâbord que tribord.\nLe chenal de droite est le chenal principal",
+
+    //
+    // Right of way
+    'ordof': "Ordre des privilèges",
+    'ordmotor': "Privilèges pour les bateaux à moteur",
+    'ordsail': "Privilèges pour les voiliers",
+    'high_is_pr': "Le plus haut = le plus privilégié :",
+    'same_motor':"Quand deux bateaux à moteur sont sur une route de collision :",
+    'same_sail':"Quand deux voiliers sont sur une route de collision :",
+    'give_way': "En tant que navire manoeuvrant, vous devez agir comme si le navire privilégié allais continuer sa route. Il est de votre résponsabilité d'attirer l'attention et d'indiquer vos intentions clairement, ainsi que de manoeuvrer autour du navire privilégié sans creer un situation dangereuse.",
+    'stand_on': "Si vous êtes le navire privilégié, il est de votre responsabilité d'interpreter les actions du navire manoeuvrant. Vous devez aussi maintenir votre route (trajectoir et vitesse) jusqu'à ce que l'autre navire soit passé, ou qu'il y ai une situation dangereuse.",
+    'pr_1': "Overtaken vessel (top priority)",
+    'pr_2': "Navire non maitre de sa manoeuvre",
+    'pr_3': "Navire à capacité de manoeuvre restreinte",
+    'pr_4': "Navire handicapé par son tirant d'eau",
+    'pr_5': "Navire de pêche",
+    'pr_6': "Voilier",
+    'pr_7': "Navire à moteur sans handicapes",
+    'sitm_1': "Si vous voyez l'autre navire par tribord, vous êtes manoeuvrant\nSi vous voyez l'autre navire par bâbord, vous êtes privilégié",
+    'sitm_2': "Si vous rattrapez un navire (zone du feu de poupe), il est privilégié, vous êtes manoeuvrant",
+    'sitm_3': "Si vous êtes face à face, vous devez indiquer clairement que vous tournez à tribord",
+
+    'sits_1': "Si vous êtes sur une amure différente:\n- Le navire tribord amure (le vent arrive par la droite) est privilégié\n- Le navire bâbord amure (le vent arrive par la gauche) est manoeuvrant",
+    'sits_2': "Si vous êtes sur la même amure, le navire sous le vent est privilégié\nLe navire qui reçoit le vent en premier est manoeuvrant",
+    'sits_3': "Si vous rattrapez un navire (zone du feu de poupe), il est privilégié, vous êtes manoeuvrant",
   }
 };
 
