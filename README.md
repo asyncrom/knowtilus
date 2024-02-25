@@ -9,12 +9,6 @@ Most of the work is done,for some code cleaning and refactoring is needed.
 
 The app is made using flutter and GETX for easier widget state management.
 
-When the project reaches beta, the app will be published for free in the Playstore, in F-Droid, and as a static web-app.
-
-When the app is fully ready, the goal is also to publish it in the App Store and Playstore at a low price.
-
-Translations English and French for the moment, in lib/translations/ktranslation.dart
-
 ## Warning
 This code is NOT under a permissive / copyleft licence.
 
