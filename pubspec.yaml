@@ -57,8 +57,6 @@ flutter:
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   assets:
-    - assets/audio/long.ogg
-    - assets/audio/short.ogg
     - assets/images/lights/basic/
     - assets/images/lights/add/
     - assets/images/lights/top/
